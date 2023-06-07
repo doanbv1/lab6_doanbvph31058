@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bai2Activity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/costom_edittext"
+        android:gravity="center"
+        android:text="danh sách sinh viên"
+        android:textAllCaps="true"
+        android:textSize="30dp" />
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="290dp"
+        android:text="Thêm Mới"/>
+    <ListView
+        android:id="@+id/lvbrach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FF5722"
+        android:dividerHeight="2dp"
+        android:listSelector="#2196F3"/>
+</LinearLayout>
