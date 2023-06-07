@@ -13,24 +13,32 @@
         android:theme="@style/Theme.TH_intent"
         tools:targetApi="31">
         <activity
-            android:name=".Dang_Ky"
-            android:exported="true" />
-        <activity
-            android:name=".Danh_Nhap"
+            android:name="lamquat.lab7_2"
             android:exported="true" >
+
+
+
+        </activity>
+        <activity
+            android:name=".welcome"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+
         </activity>
         <activity
+            android:name=".Dang_Ky"
+            android:exported="true" />
+        <activity
+            android:name=".Danh_Nhap"
+            android:exported="true"></activity>
+        <activity
             android:name=".bai2Activity"
-            android:exported="true">
-
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />

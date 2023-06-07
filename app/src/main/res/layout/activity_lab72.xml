@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lamquat.lab7_2"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/khoi_dong"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAN XỊN"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:background="@drawable/costom_edittext"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/img_fan"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@mipmap/fan"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/flast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="FAST"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/medium"
+            android:layout_marginRight="41dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="MEDIUM"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="41dp"/>
+        <Button
+            android:id="@+id/slow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="SLOW"
+            android:textSize="20dp"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/off"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="OFF"
+        android:background="@drawable/costom_edittext"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:gravity="center"/>
+
+
+
+
+</LinearLayout>
